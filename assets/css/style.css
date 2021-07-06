@@ -17,6 +17,12 @@ a {
     color: #f434f4;
     text-decoration: none;
 }
+p {
+    margin-bottom: 10px;
+}
+h1,h2,h3,h4 {
+    margin-bottom: 10px;
+}
 h1 {
     font-size: 38px;
     line-height: 45px;
@@ -59,9 +65,6 @@ textarea {
     padding: 10px;
     line-height: 20px;
 }
-button.btn {
-    border: none;
-}
 .w-25 {
     width: 25%;
 }
@@ -103,13 +106,16 @@ button.btn {
 .btn {
     display: inline-block;
     padding: 10px 50px;
+    font-size: 18px;
     line-height: 30px;
     background: #ffa84c;
     background: linear-gradient(to right,  #fb954b 0%,#fd482d 100%);
     border-radius: 30px;
     color: #FFF;
     box-shadow:0px 0px 12px 0px #fc964b;
-
+}
+button.btn {
+    border: none;
 }
 .text-center {
     text-align: center;
@@ -162,7 +168,7 @@ button.btn {
     float: left;
 }
 .aboutcontent {
-    padding: 80px 0 0 250px;
+    padding: 40px 0 0 100px;
 }
 .aboutcontent h2 {
     margin-bottom: 20px;
