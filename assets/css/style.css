@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    background: #FFF;
+    color: #333;
+}
+a {
+    color: #f434f4;
+    text-decoration: none;
+}
+h1 {
+    font-size: 38px;
+    line-height: 45px;
+}
+h2 {
+    font-size: 32px;
+    line-height: 36px;
+}
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+}
+h4 {
+    font-size: 18px;
+    line-height: 24px;
+}
+h5 {
+    font-size: 16px;
+    line-height: 22px;
+}
+h6 {
+    font-size: 15px;
+    line-height: 22px;
+}
+.flex {
+  display: flex;
+}
+.justify-content-between {
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.form-group{
+    padding-bottom: 15px;
+}
+input,
+textarea {
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 10px;
+    line-height: 20px;
+}
+button.btn {
+    border: none;
+}
+.w-25 {
+    width: 25%;
+}
+.w-40 {
+    width: 40%;
+}
+.w-50 {
+    width: 50%;
+}
+.w-60 {
+    width: 60%;
+}
+.w-75 {
+    width: 75%;
+}
+.w-100 {
+    width: 100%;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.p-30 {
+    padding: 30px;
+}
+.py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.py-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 50px;
+    line-height: 30px;
+    background: #ffa84c;
+    background: linear-gradient(to right,  #fb954b 0%,#fd482d 100%);
+    border-radius: 30px;
+    color: #FFF;
+    box-shadow:0px 0px 12px 0px #fc964b;
+
+}
+.text-center {
+    text-align: center;
+}
+.orange {
+    color: #fd482d;
+}
+.bglight {
+    background-color: #fff4ee;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+/**** Start Banner Area ***/
+.banner {
+    padding-top: 100px;
+}
+.bannercontent {
+    justify-content: center;
+    align-self: center;
+    padding-right: 100px;
+}
+.bannercontent h1 {
+    font-size: 38px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.bannercontent .btn {
+    margin-top: 20px;
+}
+.bannerimg {
+    background-image: url(../images/shapes/femelbg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bannerimg img {
+    float: left;
+}
+/**** End Banner Area ***/
+
+/**** Start About Me Section ***/
+.aboutsection {
+    padding: 50px 0 0 0;
+    background: #fff4ee url(../images/shapes/7.png) no-repeat center;
+    background-size: cover;
+}
+.aboutsection img {
+    float: left;
+}
+.aboutcontent {
+    padding: 80px 0 0 250px;
+}
+.aboutcontent h2 {
+    margin-bottom: 20px;
+}
+.aboutcontent .btn {
+    margin-top: 30px;
+}
+/**** End About Me Section ***/
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.center{
+    margin: 0 auto;
+}
+.blog {
+    display: flex;
+    margin: 0 -15px;
+}
+.blog .item {
+    padding: 20px;
+    box-shadow: 0 0 8px 0 #ddd;
+    margin: 15px;
+    border-radius: 30px;
+}
+.blog .item img{
+    border-radius: 20px;
+}
+.blog h3 {
+    margin: 10px 0;
+}
+
+.socialinside {
+    border-radius: 30px;
+    box-shadow: 0 0 8px 0 #ddd;
+}
+.socialinside > div {
+    padding: 50px;
+}
+.socialinside h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+/*** Footer ***/
+.footer {
+    background: #333;
+    padding: 50px 0;
+    color: #FFF;
+}
